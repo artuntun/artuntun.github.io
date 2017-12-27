@@ -1,10 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>BLOG</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<title>BLOG</title>
+	<style>
+	body{
+		font-family: 'Roboto', sans-serif;
+		background-color:#eeeeee;
+	}
+	.content{
+		margin:auto;
+		display:flex;
+		width:60%;
+		background-color:#fff;
+		color:#333;
+		height:90vh;
+		flex-flow:column;
+		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+		padding:20px;
+		border-radius: 5px;
+	}
+	.container{
+		width:100%;
+		display:flex;
+		flex-align:center;
+		justify-items:center;
+		
+	}
+	ul.posts{
+		list-style:none;
+	}
+	</style>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
 </head>
 <body>
-	<h1>List of post</h1> 
-	<ul><li><a href='/personal_page/blog/1.html'>1.html</a></li></ul>
+	<div class='container'>
+		<div class='content'>
+			<h1>List of post</h1> 
+			<hr/>
+			<ul class='posts'><a href='/personal_page/blog/1.html' class='post_preview'>Esta es la primera mierda que hemos hecho en este blog minim...</a></ul>
+		</div>
+	</div>
+	
 </body>
 </html>
