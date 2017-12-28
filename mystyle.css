@@ -14,7 +14,7 @@ body{
 	padding: 1%;
 }	
 .topheader .right{
-	width: 30%;
+	width: 50%;
 	display:inline-block;
 	text-align:right;
 	margin-right: -4px;
@@ -43,7 +43,6 @@ table { width: 100%; }
 	width:60%;
 	background-color:#fff;
 	color:#333;
-	height:90vh;
 	flex-flow:column;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	padding:20px;
